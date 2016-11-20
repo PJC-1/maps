@@ -5,11 +5,16 @@ import Places from './components/Places'
 
 class App extends Component {
     render(){
+        const location = {
+            lat: 37.773972,
+            lng: -122.431297
+        }
+
         return (
             <div>
                 This is a REACT APP!
                 <div style={{width:300, height:600, background:'red'}}>
-                    <Map />
+                    <Map center={location} />
                 </div>
                 <Places />
             </div>

@@ -88,7 +88,13 @@
 	    _createClass(App, [{
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
-	            console.log('componentDidMount');
+	
+	            var url = 'https://api.foursquare.com/v2/venues/search?v=20140806&ll=37.773972,-122.431297&client_id= ZGBQZICBGNWKSWSBVVRBQB0MSEIZUCONBP34NCBME3HOSMYZ&client_secret= PJD1WTF5WMYHYVYYGY4EGFRSL0TKJAHQBYCPXZB42LXU4GK4';
+	
+	            _superagent2.default.get(url).query(null).set('Accept', 'text/json').end(function (error, response) {
+	
+	                console.log(JSON.stringify(response.body));
+	            });
 	        }
 	    }, {
 	        key: 'render',

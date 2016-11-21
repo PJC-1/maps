@@ -6,7 +6,20 @@ import superagent from 'superagent'
 
 class App extends Component {
     componentDidMount(){
-        console.log('componentDidMount')
+
+        const url = 'https://api.foursquare.com/v2/venues/search?v=20140806&ll=37.773972,-122.431297&client_id= ZGBQZICBGNWKSWSBVVRBQB0MSEIZUCONBP34NCBME3HOSMYZ&client_secret= PJD1WTF5WMYHYVYYGY4EGFRSL0TKJAHQBYCPXZB42LXU4GK4'
+
+
+        superagent
+        .get(url)
+        .query(null)
+        .set('Accept', 'text/json')
+        .end((error, response) => {
+
+            console.log(JSON.stringify(response.body))
+
+        })
+
     }
 
     render(){

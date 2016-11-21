@@ -118,7 +118,7 @@
 	                null,
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: 'col1', style: { width: 300, height: 600, background: 'red' } },
+	                    { className: 'col1', style: { width: 300, height: 600, background: 'grey' } },
 	                    _react2.default.createElement(_Map2.default, { center: location, markers: this.state.venues })
 	                ),
 	                _react2.default.createElement(_Places2.default, { venues: this.state.venues })

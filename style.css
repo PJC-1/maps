@@ -1,9 +1,17 @@
 .col1 {
     display: inline-block;
     width: 50%;
+    font-family: monospace;
+    font-size: 17px;
+    margin: 0;
+    padding: 10px;
 }
 
 .col2 {
     display: inline-block;
     width: 50%;
+    font-family: monospace;
+    font-size: 17px;
+    margin: 0;
+    padding: 10px;
 }

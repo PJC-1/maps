@@ -40,7 +40,7 @@ class App extends Component {
 
         return (
             <div>
-                <div className="col1" style={{width:300, height:600, background:'red'}}>
+                <div className="col1" style={{width:300, height:600, background:'grey'}}>
                     <Map center={location} markers={this.state.venues} />
                 </div>
                 <Places venues={this.state.venues} />

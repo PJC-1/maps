@@ -8,7 +8,7 @@ class Places extends Component {
             )
         })
         return (
-            <div>
+            <div className="col2">
                 <ol>
                     {list}
                 </ol>

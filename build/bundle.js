@@ -116,10 +116,9 @@
 	            return _react2.default.createElement(
 	                'div',
 	                null,
-	                'This is a REACT APP!',
 	                _react2.default.createElement(
 	                    'div',
-	                    { style: { width: 300, height: 600, background: 'red' } },
+	                    { className: 'col1', style: { width: 300, height: 600, background: 'red' } },
 	                    _react2.default.createElement(_Map2.default, { center: location, markers: this.state.venues })
 	                ),
 	                _react2.default.createElement(_Places2.default, { venues: this.state.venues })
@@ -25938,7 +25937,7 @@
 /* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -25968,20 +25967,20 @@
 	    }
 	
 	    _createClass(Places, [{
-	        key: 'render',
+	        key: "render",
 	        value: function render() {
 	            var list = this.props.venues.map(function (venue, i) {
 	                return _react2.default.createElement(
-	                    'li',
+	                    "li",
 	                    { key: i },
 	                    venue.name
 	                );
 	            });
 	            return _react2.default.createElement(
-	                'div',
-	                null,
+	                "div",
+	                { className: "col2" },
 	                _react2.default.createElement(
-	                    'ol',
+	                    "ol",
 	                    null,
 	                    list
 	                )

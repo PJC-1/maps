@@ -40,8 +40,7 @@ class App extends Component {
 
         return (
             <div>
-                This is a REACT APP!
-                <div style={{width:300, height:600, background:'red'}}>
+                <div className="col1" style={{width:300, height:600, background:'red'}}>
                     <Map center={location} markers={this.state.venues} />
                 </div>
                 <Places venues={this.state.venues} />

@@ -5,6 +5,13 @@ import Places from './components/Places'
 import superagent from 'superagent'
 
 class App extends Component {
+    constructor(){
+        super()
+        this.state = {
+            venues: []
+        }
+    }
+
     componentDidMount(){
 
         const url = 'https://api.foursquare.com/v2/venues/search?v=20140806&ll=37.773972,-122.431297&client_id= ZGBQZICBGNWKSWSBVVRBQB0MSEIZUCONBP34NCBME3HOSMYZ&client_secret= PJD1WTF5WMYHYVYYGY4EGFRSL0TKJAHQBYCPXZB42LXU4GK4'
@@ -15,8 +22,11 @@ class App extends Component {
         .query(null)
         .set('Accept', 'text/json')
         .end((error, response) => {
-
-            console.log(JSON.stringify(response.body))
+            const venues = response.body.response.venues
+            console.log(JSON.stringify(venues))
+            this.setState({
+                venues: venues
+            })
 
         })
 
@@ -43,7 +53,7 @@ class App extends Component {
                 <div style={{width:300, height:600, background:'red'}}>
                     <Map center={location} markers={markers} />
                 </div>
-                <Places />
+                <Places venues={this.state.venues} />
             </div>
         )
     }

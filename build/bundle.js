@@ -82,18 +82,27 @@
 	    function App() {
 	        _classCallCheck(this, App);
 	
-	        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+	        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
+	
+	        _this.state = {
+	            venues: []
+	        };
+	        return _this;
 	    }
 	
 	    _createClass(App, [{
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
+	            var _this2 = this;
 	
 	            var url = 'https://api.foursquare.com/v2/venues/search?v=20140806&ll=37.773972,-122.431297&client_id= ZGBQZICBGNWKSWSBVVRBQB0MSEIZUCONBP34NCBME3HOSMYZ&client_secret= PJD1WTF5WMYHYVYYGY4EGFRSL0TKJAHQBYCPXZB42LXU4GK4';
 	
 	            _superagent2.default.get(url).query(null).set('Accept', 'text/json').end(function (error, response) {
-	
-	                console.log(JSON.stringify(response.body));
+	                var venues = response.body.response.venues;
+	                console.log(JSON.stringify(venues));
+	                _this2.setState({
+	                    venues: venues
+	                });
 	            });
 	        }
 	    }, {
@@ -120,7 +129,7 @@
 	                    { style: { width: 300, height: 600, background: 'red' } },
 	                    _react2.default.createElement(_Map2.default, { center: location, markers: markers })
 	                ),
-	                _react2.default.createElement(_Places2.default, null)
+	                _react2.default.createElement(_Places2.default, { venues: this.state.venues })
 	            );
 	        }
 	    }]);
@@ -25968,10 +25977,21 @@
 	    _createClass(Places, [{
 	        key: 'render',
 	        value: function render() {
+	            var list = this.props.venues.map(function (venue, i) {
+	                return _react2.default.createElement(
+	                    'li',
+	                    { key: i },
+	                    venue.name
+	                );
+	            });
 	            return _react2.default.createElement(
 	                'div',
 	                null,
-	                'This is the Places component'
+	                _react2.default.createElement(
+	                    'ol',
+	                    null,
+	                    list
+	                )
 	            );
 	        }
 	    }]);

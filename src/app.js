@@ -38,20 +38,11 @@ class App extends Component {
             lng: -122.431297
         }
 
-        const markers = [
-            {
-                location: {
-                    lat: 37.773972,
-                    lng: -122.431297
-                }
-            }
-        ]
-
         return (
             <div>
                 This is a REACT APP!
                 <div style={{width:300, height:600, background:'red'}}>
-                    <Map center={location} markers={markers} />
+                    <Map center={location} markers={this.state.venues} />
                 </div>
                 <Places venues={this.state.venues} />
             </div>

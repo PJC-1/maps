@@ -2,8 +2,13 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Map from './components/Map'
 import Places from './components/Places'
+import superagent from 'superagent'
 
 class App extends Component {
+    componentDidMount(){
+        console.log('componentDidMount')
+    }
+
     render(){
         const location = {
             lat: 37.773972,

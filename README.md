@@ -2,4 +2,4 @@
 
 ### Here is an screenshot of what the end result will look like:
 
-![alt tag](https://github.com/PJC-1/maps/pics/1.png)
+![alt tag](https://github.com/PJC-1/maps/blog/master/pics/finished.png)

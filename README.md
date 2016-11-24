@@ -25,7 +25,7 @@
 
 ### 1a.
 Create a new directory by running <code>mkdir DIRECTORY-NAME</code> in the terminal,
-and cd into that directory by running <code> cd DIRECTORY-NAME</code>.
+and cd into that directory by running <code> cd DIRECTORY-NAME</code> in the terminal.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/a1.png)
 
@@ -67,4 +67,18 @@ Install `babel-loader`. Run <code>npm i -D babel-loader</code> in the terminal. 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/7.png)
 
 ### 8.
-Instal `babel-preset-react`. Run <code>npm i -D babel-preset-react</code> in the terminal.
+Install `babel-preset-react`. Run <code>npm i -D babel-preset-react</code> in the terminal. The `babel-preset-react` is a plugin used by the `babel-loader` to translate JSX syntax.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/8.png)
+
+### 9.
+Install `babel-preset-es2015`. Run <code>npm i -D babel-preset-es2015</code> in the terminal. Like the `babel-preset-react`, this plugin will be used by the `babel-loader` to translate ES6 syntax.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/9.png)
+
+### 10.
+Create the `webpack.config.js` file by running <code>touch webpack.config.js</code> in the terminal. . [more information webpack configuration](https://webpack.github.io/docs/configuration.html)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/10a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/10b.png)

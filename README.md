@@ -21,4 +21,7 @@
 - run 'webpack -w' in the terminal
 - open `index.html` in the browser
 
-### steps comming soon
+### Lets get coding:
+1.  run <code>npm init -y</code> in the terminal to produce the `package.json` file with the default settings.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/1.png)

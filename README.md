@@ -22,6 +22,10 @@
 - open `index.html` in the browser
 
 ### Lets get coding:
-1.  run <code>npm init -y</code> in the terminal to produce the `package.json` file with the default settings.
+1.  Run <code>npm init -y</code> in the terminal to produce the `package.json` file, the `-y` option will create the `package.json` file with the default settings and will not prompt you to answer each question.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/1.png)
+
+2.  Create an `index.html` file and a `webpack.config.js` file. A configuration file in Webpack is basically a common.js module. The config file is a place to put all of your configuration, loaders, and other specific information relating to your build.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/2.png)

@@ -44,6 +44,6 @@ Instal `react-DOM`. Run <code> npm i -S react-dom</code>
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/4.png)
 
 ### 5.
-Install `webpack'. Run <code>npm i -D webpack</code> in the terminal. The `-D` stands for dev-dependencies.
+Install `webpack`. Run <code>npm i -D webpack</code> in the terminal. The `-D` stands for dev-dependencies.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/5.png)

@@ -24,8 +24,8 @@
 ## Lets get coding:
 
 ### 1a.
-Create a new directory by running <code>mkdir <DIRECTORY-NAME></code> in the terminal,
-and cd into that directory by running <code> cd <DIRECTORY-NAME></code>.
+Create a new directory by running <code>mkdir DIRECTORY-NAME</code> in the terminal,
+and cd into that directory by running <code> cd DIRECTORY-NAME</code>.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/a1.png)
 

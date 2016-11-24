@@ -32,3 +32,18 @@ Run <code>npm init -y</code> in the terminal to produce the `package.json` file,
 Create an `index.html` file and a `webpack.config.js` file. A configuration file in Webpack is basically a common.js module. The config file is a place to put all of your configuration, loaders, and other specific information relating to your build.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/2.png)
+
+### 3.
+Install `react`. Run <code> npm i -S react</code> in the terminal, the `-S` is simply short-hand for `--save` and the `i` is short for `install`.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/3.png)
+
+### 4.
+Instal `react-DOM`. Run <code> npm i -S react-dom</code>
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/4.png)
+
+### 5.
+Install `webpack'. Run <code>npm i -D webpack</code> in the terminal. The `-D` stands for dev-dependencies.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/5.png)

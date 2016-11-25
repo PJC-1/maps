@@ -77,7 +77,7 @@ Install `babel-preset-es2015`. Run <code>npm i -D babel-preset-es2015</code> in 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/9.png)
 
 ### 10.
-Create the `webpack.config.js` file by running <code>touch webpack.config.js</code> in the terminal. . [more information webpack configuration](https://webpack.github.io/docs/configuration.html)
+Create the `webpack.config.js` file by running <code>touch webpack.config.js</code> in the terminal. On line 1 and 2 we use node's require method to load the webpack module from webpack and the path module from node which provides utilities for working with file and directory paths. [more information webpack configuration](https://webpack.github.io/docs/configuration.html)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/10a.png)
 

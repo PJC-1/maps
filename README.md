@@ -77,7 +77,7 @@ Install `babel-preset-es2015`. Run <code>npm i -D babel-preset-es2015</code> in 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/9.png)
 
 ### 10.
-Create the `webpack.config.js` file by running <code>touch webpack.config.js</code> in the terminal. On line 1 and 2 we use node's require method to load the webpack module from webpack and the path module from node which provides utilities for working with file and directory paths. [more information webpack configuration](https://webpack.github.io/docs/configuration.html)
+Create the `webpack.config.js` file by running <code>touch webpack.config.js</code> in the terminal. On line `1` and `2` we use node's require method to load the webpack module from webpack and the path module from node which provides utilities for working with file and directory paths. The minimalist requirement of a Webpack config file is the presence of `entry` and `output` properties. On `line 6` the `entry` property contains an `app` key who's value holds the directory path of the React applications codebase, the `entry` basically tells Babel where the javascript code we wrote lives to have it transpile into ES5. On `line 10` the `output` property has a `sourceMapFilename` key who's value represents the directory path of the bundle file output, this is where we use webpack to specify where to tell Babel to put the transpiled code. [more information webpack configuration](https://webpack.github.io/docs/configuration.html)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/10a.png)
 

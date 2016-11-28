@@ -96,3 +96,8 @@ Create a `src` directory, cd into that directory and create an `app.js` file ins
 Set up the app.js file.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/12.png)
+
+### 13.
+Run `web pack -w` in the terminal, which stands for web pack watch, which will watch for all changes and automatically retranspile your code. This will generate the build folder and `bundle.js` and `bundle.map` files, which are the transpiled code.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/13.png)

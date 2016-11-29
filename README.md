@@ -101,3 +101,10 @@ Set up the app.js file.
 Run `web pack -w` in the terminal, which stands for web pack watch, which will watch for all changes and automatically retranspile your code. This will generate the build folder and `bundle.js` and `bundle.map` files, which are the transpiled code.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/13.png)
+
+### 14.
+Set up the `index.html` file to render. Now if you open `index.html` in the browser you will see the text `This is a REACT APP!` displayed on the screen.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/14a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/14b.png)

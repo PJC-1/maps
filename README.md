@@ -108,3 +108,8 @@ Set up the `index.html` file to render. Now if you open `index.html` in the brow
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/14a.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/14b.png)
+
+### 15.
+Go into the `src` directory, and make a new directory named `components` cd into this directory and make two files, one named `Maps.js` and another named `Places.js`.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/15.png)

@@ -113,3 +113,10 @@ Set up the `index.html` file to render. Now if you open `index.html` in the brow
 Go into the `src` directory, and make a new directory named `components` cd into this directory and make two files, one named `Maps.js` and another named `Places.js`.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/15.png)
+
+### 16.
+Now lets do a basic set up for the Map component, and `import` this component in the `app.js` file with this line of code: `import Map from './components/Map'`
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/16a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/16b.png)

@@ -122,8 +122,17 @@ Now lets do a basic set up for the Map component, and `import` this component in
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/16b.png)
 
 ### 17.
-Now that we have the Map component all set up, we can utilize the Map component in the app.js. If you run the `index.html` file in the browser and you will see some text rendered from he Map component.
+Now that we have the Map component all set up, we can utilize the Map component in the app.js. If you open the `index.html` file in the browser and you will see some text rendered from he Map component.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/17a.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/17b.png)
+
+### 18.
+Create a simple Places component, export and import this module in the app.js and adding it to the render.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/18a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/18b.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/18c.png)

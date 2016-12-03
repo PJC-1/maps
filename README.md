@@ -136,3 +136,10 @@ Create a simple Places component, export and import this module in the app.js an
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/18b.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/18c.png)
+
+### 19.
+Install `react-google-maps` by running this line of code in the terminal, <code> npm i -S react-google-maps </code> and then add a script tag that uses your googleAPI key. For more information on [react-google-maps](https://github.com/tomchentw/react-google-maps). Here's a link to the [Google Maps APIs docs](https://developers.google.com/maps/documentation/javascript/), this is where you can get your api key.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/19a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/19b.png)

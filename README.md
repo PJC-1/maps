@@ -143,3 +143,9 @@ Install `react-google-maps` by running this line of code in the terminal, <code>
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/19a.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/19b.png)
+
+
+### 20.
+In the `maps` component we can import some components from the `react-google-maps` library.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/20.png)

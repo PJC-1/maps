@@ -158,4 +158,10 @@ Next we need to create a container for the map. The style in the `div` just mean
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/21b.png)
 
-![alt tag](https://github.com/PJC-1/maps/blob/master/pics/21c.png)
+
+
+### 22.
+
+In the map component lets add some code to render the google map, we pass down `center` as a `prop`, so we need to go back to our `app.js` and make sure that we create a center variable and passit down to the `Maps` component via props.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/22.png)

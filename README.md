@@ -177,3 +177,12 @@ In the `Maps.js` file we access markers and create a local variable markers, and
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/24a.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/24b.png)
+
+
+### 25.
+
+To make our API calls in react we will be using another external module named `superagent`. To install `superagent` enter this code into the terminal: <code>npm i -S superagent</code>
+
+For more information on `SuperAgent` here's the link to their [DOCS](https://visionmedia.github.io/superagent/)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/25.png)

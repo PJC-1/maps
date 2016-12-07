@@ -169,3 +169,11 @@ In the map component lets add some code to render the google map, we pass down `
 In the `app.js` add another variable named markers, which is an array of objects, these will be the markers on the map. We also need to pass the `Map` component markers as a prop.
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/23.png)
+
+### 24.
+
+In the `Maps.js` file we access markers and create a local variable markers, and use the map function that will iterate over the markers property and pull the `lat` and `lng` for the google maps, we also return a `Marker` component that takes `i` as the `unique identifier` and it also takes marker which we just declared in the `Map` component. We add `{ marker }` and on `line 29` as a reference to marker on `line 9`, this is how the map will display the markers. In the return of `const marker` `{...marker}` is just `ES6` short hand for passing in `marker`.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/24a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/24b.png)

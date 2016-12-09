@@ -186,3 +186,12 @@ To make our API calls in react we will be using another external module named `s
 For more information on `SuperAgent` here's the link to their [DOCS](https://visionmedia.github.io/superagent/)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/25.png)
+
+
+### 26.
+
+Inside the parent component (which is the App component in app.js) and we want to override whats called the `lifecycle component` called `componentDidMount`, a lifecycle method is an action that gets fired by the system and not by the user. Here we just added a console.log to check if it is working. So if you open index.html in the browser and refresh you will see `componentDidMount` logged in the console.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/26a.png)
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/26b.png)

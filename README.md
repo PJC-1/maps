@@ -195,3 +195,10 @@ Inside the parent component (which is the App component in app.js) and we want t
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/26a.png)
 
 ![alt tag](https://github.com/PJC-1/maps/blob/master/pics/26b.png)
+
+
+###27.
+
+Import `Super Agent` to make api calls, we import this in the `app.js` file.
+
+![alt tag](https://github.com/PJC-1/maps/blob/master/pics/27.png)

@@ -199,7 +199,9 @@ Inside the parent component (which is the App component in app.js) and we want t
 
 ###27.
 
-Import `Super Agent` to make api calls, we import this in the `app.js` file with this line of code: <code>import superagent from 'superagent'</code> 
+Import `Super Agent` to make api calls, we import this in the `app.js` file with this line of code:
+
+<code>import superagent from 'superagent'</code> 
 
 Click here for more information [SuperAgent](https://visionmedia.github.io/superagent/).
 

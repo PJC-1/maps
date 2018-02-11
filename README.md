@@ -1,4 +1,8 @@
-## Here are step-by-step instructions to make this simple react app that uses the google-maps api and the foursquare api to display a list of places and a map with markers of those places.
+## This repo follows *Turbo 360's* YouTube tutorial [React with Google Maps](https://www.youtube.com/watch?v=N1J7Q1qJPQM&t=550s)
+
+## As a note, the following instructions are not complete and may be out of date. *Turbo 360's* YouTube channel also features a new React tutorial using Google Maps, [React & Google Maps Revisited](https://www.youtube.com/watch?v=jZZEskrwc4w&t=203s)
+
+##Here are step-by-step instructions to make this simple react app that uses the google-maps api and the foursquare api to display a list of places and a map with markers of those places.
 
 ## Here is an screenshot of what the end result will look like:
 
@@ -201,7 +205,7 @@ Inside the parent component (which is the App component in app.js) and we want t
 
 Import `Super Agent` to make api calls, we import this in the `app.js` file with this line of code:
 
-<code>import superagent from 'superagent'</code> 
+<code>import superagent from 'superagent'</code>
 
 Click here for more information [SuperAgent](https://visionmedia.github.io/superagent/).
 
